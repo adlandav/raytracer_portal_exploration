@@ -1,26 +1,26 @@
 ﻿  main.cpp
-e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracerf\vec3.h(49): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracerf\vec3.h(129): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracerf\vec3.h(143): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracerf\vec3.h(153): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracerf\hittablelist.h(25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracerf\camera.h(12): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracerf\camera.h(22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracerf\dialetric.h(28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracerf\main.cpp(39): warning C4305: 'argument': truncation from 'double' to 'float'
-e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracerf\main.cpp(51): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracerf\main.cpp(52): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracerf\main.cpp(52): warning C4305: 'argument': truncation from 'double' to 'float'
-e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracerf\main.cpp(64): warning C4305: 'argument': truncation from 'double' to 'float'
-e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracerf\main.cpp(65): warning C4305: 'argument': truncation from 'double' to 'float'
-e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracerf\main.cpp(66): warning C4305: 'argument': truncation from 'double' to 'float'
-e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracerf\main.cpp(69): warning C4305: 'argument': truncation from 'double' to 'float'
-e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracerf\main.cpp(70): warning C4305: 'argument': truncation from 'double' to 'float'
-e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracerf\main.cpp(72): warning C4305: 'argument': truncation from 'double' to 'float'
-e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracerf\main.cpp(74): warning C4305: 'argument': truncation from 'double' to 'float'
-e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracerf\main.cpp(75): warning C4305: 'argument': truncation from 'double' to 'float'
-e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracerf\main.cpp(77): warning C4305: 'argument': truncation from 'double' to 'float'
-e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracerf\main.cpp(79): warning C4305: 'argument': truncation from 'double' to 'float'
-e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracerf\main.cpp(80): warning C4305: 'argument': truncation from 'double' to 'float'
-e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracerf\main.cpp(82): warning C4305: 'argument': truncation from 'double' to 'float'
-  rayTracerF.vcxproj -> E:\Alejandro\code\UCSC\cmpm164\rayTracerF\rayTracerF\x64\Debug\rayTracerF.exe
+e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracer_portal_exploration\code\raytracerf\vec3.h(49): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracer_portal_exploration\code\raytracerf\vec3.h(129): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracer_portal_exploration\code\raytracerf\vec3.h(143): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracer_portal_exploration\code\raytracerf\vec3.h(153): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracer_portal_exploration\code\raytracerf\hittablelist.h(25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracer_portal_exploration\code\raytracerf\camera.h(12): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracer_portal_exploration\code\raytracerf\camera.h(22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracer_portal_exploration\code\raytracerf\dialetric.h(28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracer_portal_exploration\code\raytracerf\main.cpp(42): warning C4305: 'argument': truncation from 'double' to 'float'
+e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracer_portal_exploration\code\raytracerf\main.cpp(54): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracer_portal_exploration\code\raytracerf\main.cpp(55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracer_portal_exploration\code\raytracerf\main.cpp(55): warning C4305: 'argument': truncation from 'double' to 'float'
+e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracer_portal_exploration\code\raytracerf\main.cpp(67): warning C4305: 'argument': truncation from 'double' to 'float'
+e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracer_portal_exploration\code\raytracerf\main.cpp(68): warning C4305: 'argument': truncation from 'double' to 'float'
+e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracer_portal_exploration\code\raytracerf\main.cpp(69): warning C4305: 'argument': truncation from 'double' to 'float'
+e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracer_portal_exploration\code\raytracerf\main.cpp(72): warning C4305: 'argument': truncation from 'double' to 'float'
+e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracer_portal_exploration\code\raytracerf\main.cpp(73): warning C4305: 'argument': truncation from 'double' to 'float'
+e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracer_portal_exploration\code\raytracerf\main.cpp(75): warning C4305: 'argument': truncation from 'double' to 'float'
+e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracer_portal_exploration\code\raytracerf\main.cpp(77): warning C4305: 'argument': truncation from 'double' to 'float'
+e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracer_portal_exploration\code\raytracerf\main.cpp(78): warning C4305: 'argument': truncation from 'double' to 'float'
+e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracer_portal_exploration\code\raytracerf\main.cpp(80): warning C4305: 'argument': truncation from 'double' to 'float'
+e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracer_portal_exploration\code\raytracerf\main.cpp(82): warning C4305: 'argument': truncation from 'double' to 'float'
+e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracer_portal_exploration\code\raytracerf\main.cpp(83): warning C4305: 'argument': truncation from 'double' to 'float'
+e:\alejandro\code\ucsc\cmpm164\raytracerf\raytracerf\raytracer_portal_exploration\code\raytracerf\main.cpp(85): warning C4305: 'argument': truncation from 'double' to 'float'
+  rayTracerF.vcxproj -> E:\Alejandro\code\UCSC\cmpm164\rayTracerF\rayTracerF\raytracer_portal_exploration\code\x64\Debug\rayTracerF.exe

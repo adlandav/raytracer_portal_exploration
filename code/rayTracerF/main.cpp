@@ -22,13 +22,16 @@
 
 using namespace std;
 const float MAXFLOAT = numeric_limits<float>::max();
+int width = 300;
+int height = 150;
 
 //DEF
 vec3 color(const ray&, hittable*, int);
-void makeScene();
+void makeScene(int x = 300, int y = 150, int a = 6, int b = 2, int c = 4);
+void menue();
 
 int main() {
-	makeScene();
+	menue();
 	_CrtDumpMemoryLeaks();
 	return 0;
 }
@@ -52,14 +55,14 @@ vec3 color(const ray& r, hittable *world, int depth) {
 		return (1.0 - t)*vec3(1.0, 1.0, 1.0) + t * vec3(0.5, 0.7, 1.0);
 	}
 }
-void makeScene() {
-	int nx = 2000;
-	int ny = 1000;
+void makeScene(int x, int y, int a, int b, int c) {
+	int nx = width;
+	int ny = height;
 	int ns = 100;
 	ofstream file("Atest.ppm", ios::binary);
 	file << "P3\n" << nx << " " << ny << "\n255\n";
 	sphere* list[7];
-	
+
 	list[0] = new sphere(vec3(0.25, 0.5, -1), 0.5, new lambertian(vec3(0.5, 0.0, 0.5)));
 	list[1] = new sphere(vec3(-1.2, 0.7, -1), 0.7, new dielectric(1.5));
 	list[2] = new sphere(vec3(0.7, 0.5, -2.0), 0.5, new portal(vec3(0.8, 0.8, 0.8), 0.0, vec3(-3.4, 0.5, -1), vec3(0.7, 0.5, -2.0)));
@@ -91,7 +94,7 @@ void makeScene() {
 	camera cam(lookfrom, lookat, vec3(0, 1, 0), 20,
 		float(nx) / float(ny), aperture, dist_to_focus);
 
-	int prog = 0;
+	cout << "    Rendering..." << endl;
 	for (int j = ny - 1; j >= 0; j--) {
 		for (int i = 0; i < nx; i++) {
 			vec3 col(0, 0, 0);
@@ -112,7 +115,7 @@ void makeScene() {
 		}
 		cout << (100 - (j * 100 / ny)) << "%" << endl;
 	}
-	
+
 	for (int i = 0; i < 5; i++) {
 		//cout << typeid(list[i]).name() << endl; //returns object type
 		delete list[i];
@@ -122,4 +125,61 @@ void makeScene() {
 	delete checker2;
 	delete checker3;
 	cout << "Complete!" << endl;
+}
+void menue() {
+	char option;
+	int a = 6;
+	int b = 2;
+	int c = 4;
+	do {
+		cout << "\nUse [WASD] to render the picture from a different angle,"
+			"\nUse [Z] to move forward, or [X] to move backwards,"
+			"\nPress [E] to make default image,"
+			"\nPress [F] to change resolution"
+			"\nor press [Q] to quit: ";
+		cin >> option;
+
+		if (option == 'w') {
+			cout << "\n    moving up..." << endl;
+			makeScene(width, height, a, ++b, c);
+		}
+		else if (option == 's') {
+			cout << "\n    moving down..." << endl;
+			makeScene(width, height, a, --b, c);
+		}
+		else if (option == 'a') {
+			cout << "\n    moving left..." << endl;
+			makeScene(width, height, a, b, ++c);
+		}
+		else if (option == 'd') {
+			cout << "\n    moving right..." << endl;
+			makeScene(width, height, a, b, --c);
+		}
+		else if (option == 'a') {
+			cout << "\n    moving forwards..." << endl;
+			makeScene(width, height, --a, b, c);
+		}
+		else if (option == 'd') {
+			cout << "\n    moving backwards..." << endl;
+			makeScene(width, height, ++a, b, c);
+		}
+		else if (option == 'e') {
+			cout << "\n    making default..." << endl;
+			makeScene(300, 150, 6, 2, 4);
+		}
+		else if (option == 'f') {
+			cout << "\n    Enter width (integer only): ";
+			cin >> width;
+			cout << "\n    Enter height (integer only): ";
+			cin >> height;
+			cout << endl;
+		}
+		else if (option == 'q') {
+			cout << "\n    quiting..." << endl;
+		}
+		else {
+			cout << "\n    invalid option" << endl;
+		}
+
+	} while (option != 'q');
 }
